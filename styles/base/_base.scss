@@ -1,0 +1,35 @@
+html {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.align-center {
+	display: flex;
+	align-items: center;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
