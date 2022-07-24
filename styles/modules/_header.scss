@@ -1,4 +1,5 @@
 .header {
+	background: linear-gradient(232.57deg, #ffffff 0%, #eefcff 72.27%);
 	padding-top: 4.2rem;
 	&__container {
 		display: flex;
@@ -36,6 +37,30 @@
 			&:hover {
 				font-weight: 700;
 				color: black;
+			}
+		}
+	}
+
+	&__btn {
+		display: flex;
+		align-items: center;
+		gap: 0 2.8rem;
+
+		a {
+			font-weight: 600;
+			font-size: 1.6rem;
+			line-height: 2.8rem;
+			text-decoration: none;
+
+			&:first-child {
+				color: #1a2c2f;
+			}
+
+			&:last-child {
+				padding: 1rem 2.8rem;
+				color: white;
+				background-color: #1a2c2f;
+				border-radius: 0.6rem;
 			}
 		}
 	}

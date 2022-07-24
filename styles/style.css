@@ -166,6 +166,7 @@ img {
 }
 
 .header {
+  background: linear-gradient(232.57deg, #ffffff 0%, #eefcff 72.27%);
   padding-top: 4.2rem;
 }
 .header__container {
@@ -199,6 +200,26 @@ img {
 .header__nav-item:hover {
   font-weight: 700;
   color: black;
+}
+.header__btn {
+  display: flex;
+  align-items: center;
+  gap: 0 2.8rem;
+}
+.header__btn a {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  text-decoration: none;
+}
+.header__btn a:first-child {
+  color: #1a2c2f;
+}
+.header__btn a:last-child {
+  padding: 1rem 2.8rem;
+  color: white;
+  background-color: #1a2c2f;
+  border-radius: 0.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
